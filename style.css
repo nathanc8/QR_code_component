@@ -12,8 +12,8 @@ body {
     height: 97vh;
 }
 .container {
-    width: 250px;
-    border-radius: 3%;
+    width: 275px;
+    border-radius: 15px;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,8 @@ body {
 }
 @media (max-width: 500px) {
     .container {
-        max-width: 250px;
+        min-width: 275px;
+        max-width: 275px;
         width: 90%;
     }
 }
@@ -34,17 +35,19 @@ body {
 
 #QR_code {
     max-width: 100%;
-    border-radius: 3%;
+    border-radius: 15px;
 }
 
 .txt {
     text-align: center;
     padding: 10px;
+    font-size: 15px;
 }
 
 #title {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
+    font-size: 20px;
 }
 
 #description {
