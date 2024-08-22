@@ -24,7 +24,7 @@ The goal of this project was to manipulate CSS and HTML to display a QR code to 
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/responsive-page-using-flexbox-AQgi9gKuor)
 -   Live Site : [Vercel App](https://qr-code-component-six-xi.vercel.app/)
 
 ## Our process
@@ -48,7 +48,8 @@ The goal of this project was to manipulate CSS and HTML to display a QR code to 
 ```css
 @media (max-width: 500px) {
     .container {
-        max-width: 250px;
+        min-width: 275px;
+        max-width: 275px;
         width: 90%;
     }
 }
